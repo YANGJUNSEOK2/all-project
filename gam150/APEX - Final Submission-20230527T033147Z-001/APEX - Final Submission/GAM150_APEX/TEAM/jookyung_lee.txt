@@ -1,0 +1,20 @@
+Name : Jookyung Lee
+
+Role : Technical Director
+
+Main contributions: Main physics, Game levels, HUD, and User Interface
+
+List files in which you worked:
+CharacterSelect1p.cpp, CharacterSelect1p.h, 
+CharacterSelect2p.cpp, CharacterSelect2p.h, 
+CoinCollect.cpp, CoinCollect.h, 
+Domination.cpp, Domination.h, 
+Game.cpp, Game.h, 
+Player.cpp, Player.h, 
+MainMenu.cpp, MainMenu.h, 
+Tutorial.cpp, Tutorial.h
+
+Personal notes:
+Our team made a hard decision which is to change the game's high concept completely. 
+This made us work more and think more. I learned how to communicate, work together, 
+apply physics in engine, and catched overall outlines of engine which will help me to make an engine individually.

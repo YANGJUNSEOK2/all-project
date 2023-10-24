@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{A0A83ACC-1B93-41DE-BEC3-1444113C22AE}</ProjectGuid>
+    <RootNamespace>JSengine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)\Dependencies\FreeImage\WIN32\Include;$(SolutionDir)\Dependencies\GLEW\WIN32\Include;$(SolutionDir)\Dependencies\GLFW\WIN32\Include;$(SolutionDir)\Dependencies\SDL2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\Dependencies\FreeImage\WIN32\Library;$(SolutionDir)\Dependencies\GLEW\WIN32\Library;$(SolutionDir)\Dependencies\GLFW\WIN32\Library;$(SolutionDir)\Dependencies\SDL2\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(SolutionDir)\Dependencies\FreeImage\WIN32\Include;$(SolutionDir)\Dependencies\GLEW\WIN32\Include;$(SolutionDir)\Dependencies\GLFW\WIN32\Include;$(SolutionDir)\Dependencies\SDL2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\Dependencies\FreeImage\WIN32\Library;$(SolutionDir)\Dependencies\GLEW\WIN32\Library;$(SolutionDir)\Dependencies\GLFW\WIN32\Library;$(SolutionDir)\Dependencies\SDL2\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(SolutionDir)\Dependencies\FreeImage\WIN64\Include;$(SolutionDir)\Dependencies\GLEW\WIN64\Include;$(SolutionDir)\Dependencies\GLFW\WIN64\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\Dependencies\FreeImage\WIN64\Library;$(SolutionDir)\Dependencies\GLEW\WIN64\Library;$(SolutionDir)\Dependencies\GLFW\WIN64\Library;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(SolutionDir)\Dependencies\FreeImage\WIN64\Include;$(SolutionDir)\Dependencies\GLEW\WIN64\Include;$(SolutionDir)\Dependencies\GLFW\WIN64\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\Dependencies\FreeImage\WIN64\Library;$(SolutionDir)\Dependencies\GLEW\WIN64\Library;$(SolutionDir)\Dependencies\GLFW\WIN64\Library;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>FreeImage.lib;glew32s.lib;glfw3.lib;opengl32.lib;SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>FreeImage.lib;glew32s.lib;glfw3.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>FreeImage.lib;glew32s.lib;glfw3.lib;opengl32.lib;SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>FreeImage.lib;glew32s.lib;glfw3.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Source\ApplicationSystem\Application.cpp" />
+    <ClCompile Include="Source\Error\Error.cpp" />
+    <ClCompile Include="Source\Graphics\Buffer\IndexBuffer.cpp" />
+    <ClCompile Include="Source\Graphics\Buffer\VertexArray.cpp" />
+    <ClCompile Include="Source\Graphics\Buffer\VertexBuffer.cpp" />
+    <ClCompile Include="Source\Graphics\Layer\Layer.cpp" />
+    <ClCompile Include="Source\Graphics\Layer\TileLayer.cpp" />
+    <ClCompile Include="Source\Graphics\Render\RenderBatch.cpp" />
+    <ClCompile Include="Source\Graphics\Render\RenderRegular.cpp" />
+    <ClCompile Include="Source\Graphics\Shader\Shader.cpp" />
+    <ClCompile Include="Source\Graphics\Sprite\Sprite.cpp" />
+    <ClCompile Include="Source\Graphics\Sprite\StaticSprite.cpp" />
+    <ClCompile Include="Source\Input\Input.cpp" />
+    <ClCompile Include="Source\MainSystem\GLSLProgram\GLSLProgram.cpp" />
+    <ClCompile Include="Source\MainSystem\IOManager\IOManager.cpp" />
+    <ClCompile Include="Source\MainSystem\MainGame\MainGame.cpp" />
+    <ClCompile Include="Source\MainSystem\SpriteGame\ImageLoader\ImageLoader.cpp" />
+    <ClCompile Include="Source\MainSystem\SpriteGame\PICOPNG\picoPNG.cpp" />
+    <ClCompile Include="Source\MainSystem\SpriteGame\Sprite.cpp" />
+    <ClCompile Include="Source\MathLibrary\Matrix.cpp" />
+    <ClCompile Include="Source\MathLibrary\Vector2.cpp" />
+    <ClCompile Include="Source\MathLibrary\Vector3.cpp" />
+    <ClCompile Include="Source\MathLibrary\Vector4.cpp" />
+    <ClCompile Include="Source\Move\Move.cpp" />
+    <ClCompile Include="Source\WindowSystem\WindowSystem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\ApplicationSystem\Application.hpp" />
+    <ClInclude Include="Source\Error\Error.hpp" />
+    <ClInclude Include="Source\Graphics\Buffer\BufferLibrary.hpp" />
+    <ClInclude Include="Source\Graphics\Buffer\IndexBuffer.hpp" />
+    <ClInclude Include="Source\Graphics\Buffer\VertexArray.hpp" />
+    <ClInclude Include="Source\Graphics\Buffer\VertexBuffer.hpp" />
+    <ClInclude Include="Source\Graphics\Layer\Layer.hpp" />
+    <ClInclude Include="Source\Graphics\Layer\TileLayer.hpp" />
+    <ClInclude Include="Source\Graphics\Render\Render.hpp" />
+    <ClInclude Include="Source\Graphics\Render\RenderBatch.hpp" />
+    <ClInclude Include="Source\Graphics\Render\Renderer.hpp" />
+    <ClInclude Include="Source\Graphics\Render\RenderRegular.hpp" />
+    <ClInclude Include="Source\Graphics\Shader\Shader.hpp" />
+    <ClInclude Include="Source\Graphics\Sprite\Sprite.hpp" />
+    <ClInclude Include="Source\Graphics\Sprite\StaticSprite.hpp" />
+    <ClInclude Include="Source\Input\Input.hpp" />
+    <ClInclude Include="Source\Input\InputButton.hpp" />
+    <ClInclude Include="Source\Input\InputEventHandler.hpp" />
+    <ClInclude Include="Source\LevelSystem\LevelSystem.hpp" />
+    <ClInclude Include="Source\MainSystem\GLSLProgram\GLSLProgram.hpp" />
+    <ClInclude Include="Source\MainSystem\IOManager\IOManager.hpp" />
+    <ClInclude Include="Source\MainSystem\MainGame\MainGame.hpp" />
+    <ClInclude Include="Source\MainSystem\SpriteGame\GLTexture\GLTexture.hpp" />
+    <ClInclude Include="Source\MainSystem\SpriteGame\ImageLoader\ImageLoader.hpp" />
+    <ClInclude Include="Source\MainSystem\SpriteGame\PICOPNG\picoPNG.hpp" />
+    <ClInclude Include="Source\MainSystem\SpriteGame\Sprite.hpp" />
+    <ClInclude Include="Source\MainSystem\SpriteGame\Vertex\Vertex.hpp" />
+    <ClInclude Include="Source\MathLibrary\MathFunctions.hpp" />
+    <ClInclude Include="Source\MathLibrary\MathLibrary.hpp" />
+    <ClInclude Include="Source\MathLibrary\Matrix.hpp" />
+    <ClInclude Include="Source\MathLibrary\Vector2.hpp" />
+    <ClInclude Include="Source\MathLibrary\Vector3.hpp" />
+    <ClInclude Include="Source\MathLibrary\Vector4.hpp" />
+    <ClInclude Include="Source\Move\Move.hpp" />
+    <ClInclude Include="Source\Tools\TextReader.hpp" />
+    <ClInclude Include="Source\Tools\Timer.hpp" />
+    <ClInclude Include="Source\WindowSystem\WindowSystem.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Graphics\Shader\FragmentInfo.frag" />
+    <None Include="Source\Graphics\Shader\VertexInfo.vert" />
+    <None Include="Source\MainSystem\GLSLProgram\colorShader.frag" />
+    <None Include="Source\MainSystem\GLSLProgram\colorShader.vert" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

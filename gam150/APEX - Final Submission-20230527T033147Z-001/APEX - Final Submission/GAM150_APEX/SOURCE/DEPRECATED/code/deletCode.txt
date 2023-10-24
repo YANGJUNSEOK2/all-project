@@ -1,0 +1,63 @@
+void Level1::SpeedDown(float dt)
+{
+    for (int speedDownNum = 0; speedDownNum < speedDownCount; speedDownNum++)
+    {
+        speedDown[speedDownNum]->customPhysics.AddForce(0.f, dt * 40.f);
+        speedDown[speedDownNum]->customPhysics.SetVelocity(0.f, -800 * dt);
+
+        if (player1.object.customPhysics.IsCollidingWith(speedDown[speedDownNum]))
+        {
+            //player1.speed = player1.speed * 0.9f;
+            player1.speed -= 10;
+            player1.object.sprite.color = SDL_Color{ 255, 255, 255, 255 };
+            player1.object.sprite.LoadImage("texture/redEffect.png", m_renderer);
+            RemoveObject(speedDown[speedDownNum]);
+        }
+        if (player2.object.customPhysics.IsCollidingWith(speedDown[speedDownNum]))
+        {
+            //player2.speed = player2.speed * 0.9f;
+            player2.speed -= 10;
+            player2.object.sprite.color = SDL_Color{ 255, 255, 255, 255 };
+            player2.object.sprite.LoadImage("texture/redEffect.png", m_renderer);
+            RemoveObject(speedDown[speedDownNum]);
+        }
+    }
+}
+
+CustomBaseObject* Level1::SpeedDown_Make(float posX, float posY)
+{
+    CustomBaseObject *speedDownItem = new CustomBaseObject;
+    // Set the object's unique name
+    speedDownItem->SetName("speedDown");
+    // Set the position of the object
+    //speedUp.transform.position.Set(-10.0f, 350.0f, 0.0f);
+    speedDownItem->transform.position.Set(posX, posY, 0.0f);
+    // Set the scale of the object
+    speedDownItem->transform.SetScale(64, 64);
+
+    //speedUp.customPhysics.AddForce(0.0f, 10.f);
+    // Set the colors r,g,b,a (0~255)
+    speedDownItem->sprite.color = SDL_Color{ 255, 255, 255, 255 };
+    // Connet the address of transform so sprite can use it implicitl
+    speedDownItem->sprite.LoadImage("texture/Spider.png", m_renderer);
+
+    //* Here we predefine some info to create a body
+    // Connect transform to the pointer
+    speedDownItem->customPhysics.pOwnerTransform = &speedDownItem->transform;
+    // Set body type (either DYNAMIC or STATIC)
+    //speedUp.customPhysics.bodyType = CustomPhysics::DYNAMIC;
+    speedDownItem->customPhysics.bodyType = CustomPhysics::DYNAMIC;
+    //ball2.customPhysics.GetBody()->SetType(b2_staticBody);
+    // Set body shape
+    speedDownItem->customPhysics.bodyShape = CustomPhysics::BOX;
+    speedDownItem->customPhysics.radius = 32;
+    // Allocate body passing world
+    speedDownItem->customPhysics.AllocateBody(GetCustomPhysicsWorld());
+
+    speedDownItem->customPhysics.ActiveGhostCollision(false);
+    AddObject(speedDownItem);
+    AddCustomPhysicsComponent(speedDownItem);
+
+    return speedDownItem;
+}
+

@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="State">
+      <UniqueIdentifier>{444285cc-2e3b-4aef-8d2a-54c15be5a7c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{17027902-8c34-4a39-b68b-78eb1d897c5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Camera">
+      <UniqueIdentifier>{aae8be76-00d3-4fa5-b5d9-46231f68e44e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Error">
+      <UniqueIdentifier>{daf31e80-b999-4427-a009-720093e48c96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\FPS">
+      <UniqueIdentifier>{e0ddaaeb-af34-4fe0-a372-cbf07e7a12a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Shader">
+      <UniqueIdentifier>{c787d401-73df-40ec-bbc9-7b1c4c065f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Sound">
+      <UniqueIdentifier>{8aeb804b-d8df-4690-bc15-d73799c22c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Sprite">
+      <UniqueIdentifier>{5fa7ce53-d5ab-4136-a841-82efd982f5f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Sprite\Sprite">
+      <UniqueIdentifier>{b93c25d8-0dfd-4e94-9a99-7850d6ded75b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Sprite\Mesh">
+      <UniqueIdentifier>{85afb569-491f-43e5-84a5-965f92b43c1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Texture">
+      <UniqueIdentifier>{79fbfc4b-6b76-4285-b7be-a0547c0530c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Vertex">
+      <UniqueIdentifier>{3c04072d-8ee5-4a5f-92ee-aa3fa2646751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\MathLibrary">
+      <UniqueIdentifier>{f7c626ac-d818-4ff0-a5b0-b87b90e0096b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers">
+      <UniqueIdentifier>{06b2fed3-6d65-4d0b-b00b-bfef00c133b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\I/O Manager">
+      <UniqueIdentifier>{01da9c4a-c4c7-46d5-a2ec-3efdbd207a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\Physics">
+      <UniqueIdentifier>{0920e64f-c7ac-4633-a7f9-2a13c08ff301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game_Objects">
+      <UniqueIdentifier>{fea77173-7296-42f6-a4bd-c85cf542a769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game_Objects\Character">
+      <UniqueIdentifier>{cf3509da-4e36-4a02-a737-a9bb98d21a6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game_Objects\Objects">
+      <UniqueIdentifier>{c7dff51d-ad73-4ea5-86dc-a0ca36808a3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Engine">
+      <UniqueIdentifier>{8a1117b9-5924-4326-ac7a-7fe8399ae656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Window">
+      <UniqueIdentifier>{0799636c-03bd-4915-ade7-8bc7aea9563d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Imgui">
+      <UniqueIdentifier>{4e990cff-de7e-433a-b327-478b5911c32b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\FPS\DeltaTime">
+      <UniqueIdentifier>{4fde1558-b8b8-40cb-8d8a-6e523f542189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Camera\CameraSet">
+      <UniqueIdentifier>{d8f84b37-3ee1-4c6e-8108-1428629cd9c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\State\Level1.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IO_Manager\KeyboardInput.cpp">
+      <Filter>Engine\Managers\I/O Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FPS\FPS.cpp">
+      <Filter>Engine\FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\State\StateManager.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IO_Manager\MouseInput.cpp">
+      <Filter>Engine\Managers\I/O Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera\Camera.cpp">
+      <Filter>Engine\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shader\Shader.cpp">
+      <Filter>Engine\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IO_Manager\Image_IO.cpp">
+      <Filter>Engine\Managers\I/O Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture\TextureArray.cpp">
+      <Filter>Engine\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture\Texture.cpp">
+      <Filter>Engine\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture\picoPNG.cpp">
+      <Filter>Engine\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture\ImageLoader.cpp">
+      <Filter>Engine\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Error\Error.cpp">
+      <Filter>Engine\Error</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sound\Sound.cpp">
+      <Filter>Engine\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Physics\Physics.cpp">
+      <Filter>Engine\Managers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sprite\SpriteBatch\SpriteBatch.cpp">
+      <Filter>Engine\Sprite\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sprite\SpriteGame.cpp">
+      <Filter>Engine\Sprite\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sprite\Mesh\Mesh.cpp">
+      <Filter>Engine\Sprite\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\State\MainMenu.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game_Objects\Characters.cpp">
+      <Filter>Game_Objects\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game_Objects\Character_Extern.cpp">
+      <Filter>Game_Objects\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game_Objects\GameObjectExtern.cpp">
+      <Filter>Game_Objects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game_Objects\GameObjects.cpp">
+      <Filter>Game_Objects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Source\Engine\Engine.cpp">
+      <Filter>Engine\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Window\Window.cpp">
+      <Filter>Engine\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IO_Manager\file_IO.cpp">
+      <Filter>Engine\Managers\I/O Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Imgui\imgui.cpp">
+      <Filter>Engine\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Imgui\imgui_demo.cpp">
+      <Filter>Engine\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Imgui\imgui_draw.cpp">
+      <Filter>Engine\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Imgui\imgui_impl_sdl_gl3.cpp">
+      <Filter>Engine\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FPS\DeltaTime.cpp">
+      <Filter>Engine\FPS\DeltaTime</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera\CameraSet\CameraSet.cpp">
+      <Filter>Engine\Camera\CameraSet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera\CameraSet\Transform.cpp">
+      <Filter>Engine\Camera\CameraSet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera\CameraSet\CameraView.cpp">
+      <Filter>Engine\Camera\CameraSet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Font\Font.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\State\Level1.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\State\StateManager.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IO_Manager\KeyboardInput.h">
+      <Filter>Engine\Managers\I/O Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FPS\FPS.h">
+      <Filter>Engine\FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IO_Manager\MouseInput.h">
+      <Filter>Engine\Managers\I/O Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MathLibrary\MathFunctions.hpp">
+      <Filter>Engine\MathLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MathLibrary\MathLibrary.hpp">
+      <Filter>Engine\MathLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MathLibrary\Matrix3.hpp">
+      <Filter>Engine\MathLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MathLibrary\Matrix4.hpp">
+      <Filter>Engine\MathLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MathLibrary\Vector2.hpp">
+      <Filter>Engine\MathLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MathLibrary\Vector3.hpp">
+      <Filter>Engine\MathLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MathLibrary\Vector4.hpp">
+      <Filter>Engine\MathLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera\Camera.hpp">
+      <Filter>Engine\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Shader\Shader.hpp">
+      <Filter>Engine\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IO_Manager\Image_IO.hpp">
+      <Filter>Engine\Managers\I/O Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Vertex\Vertex.hpp">
+      <Filter>Engine\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture\TextureArray.hpp">
+      <Filter>Engine\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture\Texture.hpp">
+      <Filter>Engine\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture\GLTexture.hpp">
+      <Filter>Engine\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture\ImageLoader.hpp">
+      <Filter>Engine\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture\picoPNG.hpp">
+      <Filter>Engine\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Error\Error.h">
+      <Filter>Engine\Error</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sound\Sound.hpp">
+      <Filter>Engine\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics\Physics.h">
+      <Filter>Engine\Managers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sprite\SpriteBatch\SpriteBatch.hpp">
+      <Filter>Engine\Sprite\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sprite\SpriteGame.hpp">
+      <Filter>Engine\Sprite\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sprite\Mesh\Mesh.hpp">
+      <Filter>Engine\Sprite\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\State\MainMenu.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game_Objects\GameInfo_Enums.h">
+      <Filter>Game_Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game_Objects\Characters.h">
+      <Filter>Game_Objects\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game_Objects\Character_Extern.h">
+      <Filter>Game_Objects\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game_Objects\GameObjectExtern.h">
+      <Filter>Game_Objects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game_Objects\GameObjects.h">
+      <Filter>Game_Objects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game_Objects\Colors.h">
+      <Filter>Game_Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Engine.h">
+      <Filter>Engine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Window\Window.hpp">
+      <Filter>Engine\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IO_Manager\file_IO.h">
+      <Filter>Engine\Managers\I/O Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Imgui\imconfig.h">
+      <Filter>Engine\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Imgui\imgui.h">
+      <Filter>Engine\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Imgui\imgui_impl_sdl_gl3.h">
+      <Filter>Engine\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Imgui\imgui_internal.h">
+      <Filter>Engine\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Imgui\stb_rect_pack.h">
+      <Filter>Engine\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Imgui\stb_textedit.h">
+      <Filter>Engine\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Imgui\stb_truetype.h">
+      <Filter>Engine\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FPS\DeltaTime.hpp">
+      <Filter>Engine\FPS\DeltaTime</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera\CameraSet\CameraSet.hpp">
+      <Filter>Engine\Camera\CameraSet</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera\CameraSet\Transform.hpp">
+      <Filter>Engine\Camera\CameraSet</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera\CameraSet\CameraView.hpp">
+      <Filter>Engine\Camera\CameraSet</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Font\Font.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Shader\colorShader.frag">
+      <Filter>Engine\Shader</Filter>
+    </None>
+    <None Include="Source\Shader\colorShader.vert">
+      <Filter>Engine\Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>

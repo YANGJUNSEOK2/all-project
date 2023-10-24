@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{aae8be76-00d3-4fa5-b5d9-46231f68e44e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FPS">
+      <UniqueIdentifier>{e0ddaaeb-af34-4fe0-a372-cbf07e7a12a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="I/O Manager">
+      <UniqueIdentifier>{01da9c4a-c4c7-46d5-a2ec-3efdbd207a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{8a1117b9-5924-4326-ac7a-7fe8399ae656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MathLibrary">
+      <UniqueIdentifier>{f7c626ac-d818-4ff0-a5b0-b87b90e0096b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State">
+      <UniqueIdentifier>{444285cc-2e3b-4aef-8d2a-54c15be5a7c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{79fbfc4b-6b76-4285-b7be-a0547c0530c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{c787d401-73df-40ec-bbc9-7b1c4c065f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vertex">
+      <UniqueIdentifier>{3c04072d-8ee5-4a5f-92ee-aa3fa2646751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Error">
+      <UniqueIdentifier>{daf31e80-b999-4427-a009-720093e48c96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{8aeb804b-d8df-4690-bc15-d73799c22c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{0920e64f-c7ac-4633-a7f9-2a13c08ff301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite">
+      <UniqueIdentifier>{5fa7ce53-d5ab-4136-a841-82efd982f5f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{1f153947-e654-4f75-be8d-feba69629eda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Font">
+      <UniqueIdentifier>{91e39013-1afd-4eab-852f-5e15e99a8fce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\State\Level1.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FPS\FPS.cpp">
+      <Filter>FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\State\StateManager.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IO_Manager\MouseInput.cpp">
+      <Filter>I/O Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera\Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shader\Shader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IO_Manager\Image_IO.cpp">
+      <Filter>I/O Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture\TextureArray.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture\Texture.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture\picoPNG.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture\ImageLoader.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Error\Error.cpp">
+      <Filter>Error</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main\Engine.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera\CameraSet.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera\CameraView.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera\Transtorm.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sprite\SpriteBatch\SpriteBatch.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sprite\SpriteGame.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Window\Window.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mesh\MeshDraw.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\State\Level2.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\State\Level3.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shader\glCheck\glCheck.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sprite\SpriteParticle\SpriteParticle.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sprite\SpriteParticle\ParticleEngine.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture\ScreenShot.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture\ImageTexture.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IO_Manager\Input.cpp">
+      <Filter>I/O Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Font\Font.cpp">
+      <Filter>Font</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\State\Level1.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\State\StateManager.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FPS\FPS.h">
+      <Filter>FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IO_Manager\MouseInput.h">
+      <Filter>I/O Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MathLibrary\MathFunctions.hpp">
+      <Filter>MathLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MathLibrary\MathLibrary.hpp">
+      <Filter>MathLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MathLibrary\Matrix3.hpp">
+      <Filter>MathLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MathLibrary\Vector2.hpp">
+      <Filter>MathLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MathLibrary\Vector3.hpp">
+      <Filter>MathLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MathLibrary\Vector4.hpp">
+      <Filter>MathLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera\Camera.hpp">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Shader\Shader.hpp">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IO_Manager\Image_IO.hpp">
+      <Filter>I/O Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Vertex\Vertex.hpp">
+      <Filter>Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture\TextureArray.hpp">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture\Texture.hpp">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture\GLTexture.hpp">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture\ImageLoader.hpp">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture\picoPNG.hpp">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Error\Error.h">
+      <Filter>Error</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Main\Engine.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera\CameraSet.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera\CameraView.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera\Transtorm.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sprite\SpriteBatch\SpriteBatch.hpp">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sprite\SpriteGame.hpp">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Window\Window.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mesh\MeshDraw.hpp">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\State\Level2.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\State\Level3.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sprite\SpriteParticle\SpriteParticle.hpp">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sprite\SpriteParticle\ParticleEngine.hpp">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Shader\glCheck\glCheck.hpp">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture\ScreenShot.hpp">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture\ImageTexture.hpp">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IO_Manager\Input.hpp">
+      <Filter>I/O Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Font\Font.hpp">
+      <Filter>Font</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Shader\colorShader.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Source\Shader\colorShader.vert">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>

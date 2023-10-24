@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(944,5): warning MSB8027: Two or more files with the name of Sprite.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Source\Graphics\Sprite\Sprite.cpp, Source\MainSystem\SpriteGame\Sprite.cpp.
+  MainGame.cpp
+c:\users\양준석\desktop\js_engine\js_engine\source\mathlibrary\matrix.hpp(17): warning C4552: '*': result of expression not used
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math_defines.h(22): warning C4005: 'M_PI': macro redefinition
+  c:\users\양준석\desktop\js_engine\js_engine\dependencies\sdl2\include\sdl_stdinc.h(499): note: see previous definition of 'M_PI'
+  JS_engine.vcxproj -> C:\Users\양준석\Desktop\JS_Engine\JS_engine\Debug\JS_engine.exe

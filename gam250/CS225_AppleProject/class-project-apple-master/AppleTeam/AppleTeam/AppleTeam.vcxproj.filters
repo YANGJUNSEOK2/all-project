@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\include\InputManager.h" />
+    <ClInclude Include="..\include\Level1.h" />
+    <ClInclude Include="..\include\Board.h" />
+    <ClInclude Include="..\include\Common.h" />
+    <ClInclude Include="..\include\dll.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Vector2d.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\InputManager.h">
+      <Filter>Engine\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Logger.h">
+      <Filter>Engine\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SceneManager.h">
+      <Filter>Engine\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Window.h">
+      <Filter>Engine\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Level1.h">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\IScene.h">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LevelNum.h">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Splash.h">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Board.cpp">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Board.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Cell.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Triomino.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\InputManager.cpp">
+      <Filter>Engine\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Logger.cpp">
+      <Filter>Engine\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SceneManager.cpp">
+      <Filter>Engine\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Window.cpp">
+      <Filter>Engine\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Level1.cpp">
+      <Filter>Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Splash.cpp">
+      <Filter>Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Cell.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Triomino.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{e5bddb15-77e3-4003-95fe-729b81373bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{2eeea4c7-0d94-4989-9669-d757e80e6b0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Modules">
+      <UniqueIdentifier>{5c7e3cc9-ae24-4f08-869b-33b1acc4e7b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Level">
+      <UniqueIdentifier>{d369351a-69ce-4d7e-80ac-22dab49f81e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object">
+      <UniqueIdentifier>{1a42a66d-f4e6-4994-94ed-711381bc09df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

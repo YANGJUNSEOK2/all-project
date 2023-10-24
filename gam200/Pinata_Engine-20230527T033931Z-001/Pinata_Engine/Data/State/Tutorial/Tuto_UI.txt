@@ -1,0 +1,11 @@
+-684
+-430
+554
+250
+255 255 255 255
+Texture/TutoText/UI_tuto_explCard.png
+0
+0
+0
+0
+0

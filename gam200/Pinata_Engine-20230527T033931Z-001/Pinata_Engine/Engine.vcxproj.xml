@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{83B93847-C417-4FC6-A8FC-E5CE20406C77}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Engine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)\Dependencies\GLEW\WIN32\Include;$(SolutionDir)\Dependencies\SDL2\include;$(SolutionDir)\Dependencies\SDL2_image\include;$(SolutionDir)\Dependencies\SDL2_mixer\include;$(SolutionDir)\Dependencies\SDL2_ttf\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\Dependencies\SDL2\lib\x86;$(SolutionDir)\Dependencies\SDL2_image\lib\x86;$(SolutionDir)\Dependencies\GLEW\WIN32\Library;$(SolutionDir)\Dependencies\SDL2_mixer\lib\x86;$(SolutionDir)\Dependencies\SDL2_ttf\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)\Dependencies\SDL2\include;$(SolutionDir)\Dependencies\SDL2_image\include;$(SolutionDir)\Dependencies\GLEW\WIN64\Include;$(SolutionDir)\Dependencies\SDL2_mixer\include;$(SolutionDir)\Dependencies\SDL2_ttf\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\Dependencies\SDL2\lib\x64;$(SolutionDir)\Dependencies\GLEW\WIN64\Library;$(SolutionDir)\Dependencies\SDL2_image\lib\x64;$(SolutionDir)\Dependencies\SDL2_mixer\lib\x64;$(SolutionDir)\Dependencies\SDL2_ttf\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)\Dependencies\GLEW\WIN32\Include;$(SolutionDir)\Dependencies\SDL2\include;$(SolutionDir)\Dependencies\SDL2_image\include;$(SolutionDir)\Dependencies\SDL2_mixer\include;$(SolutionDir)\Dependencies\SDL2_ttf\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\Dependencies\SDL2\lib\x86;$(SolutionDir)\Dependencies\SDL2_image\lib\x86;$(SolutionDir)\Dependencies\GLEW\WIN32\Library;$(SolutionDir)\Dependencies\SDL2_mixer\lib\x86;$(SolutionDir)\Dependencies\SDL2_ttf\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)\Dependencies\SDL2\include;$(SolutionDir)\Dependencies\SDL2_image\include;$(SolutionDir)\Dependencies\GLEW\WIN64\Include;$(SolutionDir)\Dependencies\SDL2_mixer\include;$(SolutionDir)\Dependencies\SDL2_ttf\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\Dependencies\SDL2\lib\x64;$(SolutionDir)\Dependencies\GLEW\WIN64\Library;$(SolutionDir)\Dependencies\SDL2_image\lib\x64;$(SolutionDir)\Dependencies\SDL2_mixer\lib\x64;$(SolutionDir)\Dependencies\SDL2_ttf\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);GLEW_STATIC;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Dependencies\SDL2\include;$(SolutionDir)\Dependencies\SDL2_image\include;$(SolutionDir)\Dependencies\SDL2_mixer\include;$(SolutionDir)\Dependencies\SDL2_ttf\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2test.lib;SDL2_image.lib;SDL2_mixer.lib;glew32s.lib;Opengl32.lib;SDL2_ttf.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Dependencies\SDL2\lib\x86;$(SolutionDir)\Dependencies\SDL2_image\lib\x86;$(SolutionDir)\Dependencies\SDL2_mixer\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy  "$(SolutionDir)Dependencies\SDL2_image\lib\$(PlatformTarget)" "$(SolutionDir)$(Configuration)" /Y
+xcopy "$(SolutionDir)Dependencies\SDL2\lib\$(PlatformTarget)\SDL2.dll" "$(SolutionDir)$(Configuration)" /Y 
+xcopy "$(SolutionDir)Dependencies\SDL2_mixer\lib\$(PlatformTarget)" "$(SolutionDir)$(Configuration)" /Y
+xcopy  "$(SolutionDir)Dependencies\SDL2_ttf\lib\$(PlatformTarget)" "$(SolutionDir)$(Configuration)" /Y
+xcopy "$(SolutionDir)Dependencies\SDL2_ttf\lib\$(PlatformTarget)\SDL2_ttf.dll" "$(SolutionDir)$(Configuration)" /Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);GLEW_STATIC;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Dependencies\SDL2\include;$(SolutionDir)\Dependencies\SDL2_image\include;$(SolutionDir)\Dependencies\SDL2_mixer\include;$(SolutionDir)\Dependencies\SDL2_ttf\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2test.lib;SDL2_image.lib;SDL2_mixer.lib;glew32s.lib;Opengl32.lib;SDL2_ttf.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Dependencies\SDL2\lib\x64;$(SolutionDir)\Dependencies\SDL2_image\lib\x64;$(SolutionDir)\Dependencies\SDL2_mixer\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy  "$(SolutionDir)Dependencies\SDL2_image\lib\$(PlatformTarget)" "$(SolutionDir)x64\$(Configuration)" /Y
+xcopy "$(SolutionDir)Dependencies\SDL2\lib\$(PlatformTarget)\SDL2.dll" "$(SolutionDir)x64\$(Configuration)" /Y
+xcopy  "$(SolutionDir)Dependencies\SDL2_mixer\lib\$(PlatformTarget)" "$(SolutionDir)x64\$(Configuration)" /Y
+xcopy  "$(SolutionDir)Dependencies\SDL2_ttf\lib\$(PlatformTarget)" "$(SolutionDir)x64\$(Configuration)" /Y
+xcopy "$(SolutionDir)Dependencies\SDL2_ttf\lib\$(PlatformTarget)\SDL2_ttf.dll" "$(SolutionDir)x64\$(Configuration)" /Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);GLEW_STATIC;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Dependencies\SDL2\include;$(SolutionDir)\Dependencies\SDL2_image\include;$(SolutionDir)\Dependencies\SDL2_mixer\include;$(SolutionDir)\Dependencies\SDL2_ttf\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2test.lib;SDL2_image.lib;SDL2_mixer.lib;glew32s.lib;Opengl32.lib;SDL2_ttf.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Dependencies\SDL2\lib\x86;$(SolutionDir)\Dependencies\SDL2_image\lib\x86;$(SolutionDir)\Dependencies\SDL2_mixer\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy  "$(SolutionDir)Dependencies\SDL2_image\lib\$(PlatformTarget)" "$(SolutionDir)$(Configuration)" /Y
+xcopy "$(SolutionDir)Dependencies\SDL2\lib\$(PlatformTarget)\SDL2.dll" "$(SolutionDir)$(Configuration)" /Y 
+xcopy "$(SolutionDir)Dependencies\SDL2_mixer\lib\$(PlatformTarget)" "$(SolutionDir)$(Configuration)" /Y
+xcopy  "$(SolutionDir)Dependencies\SDL2_ttf\lib\$(PlatformTarget)" "$(SolutionDir)$(Configuration)" /Y
+xcopy "$(SolutionDir)Dependencies\SDL2_ttf\lib\$(PlatformTarget)\SDL2_ttf.dll" "$(SolutionDir)$(Configuration)" /Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);GLEW_STATIC;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Dependencies\SDL2\include;$(SolutionDir)\Dependencies\SDL2_image\include;$(SolutionDir)\Dependencies\SDL2_mixer\include;$(SolutionDir)\Dependencies\SDL2_ttf\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2test.lib;SDL2_image.lib;SDL2_mixer.lib;glew32s.lib;Opengl32.lib;SDL2_ttf.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Dependencies\SDL2\lib\x64;$(SolutionDir)\Dependencies\SDL2_image\lib\x64;$(SolutionDir)\Dependencies\SDL2_mixer\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy  "$(SolutionDir)Dependencies\SDL2_image\lib\$(PlatformTarget)" "$(SolutionDir)x64\$(Configuration)" /Y
+xcopy "$(SolutionDir)Dependencies\SDL2\lib\$(PlatformTarget)\SDL2.dll" "$(SolutionDir)x64\$(Configuration)" /Y
+xcopy  "$(SolutionDir)Dependencies\SDL2_mixer\lib\$(PlatformTarget)" "$(SolutionDir)x64\$(Configuration)" /Y
+xcopy  "$(SolutionDir)Dependencies\SDL2_ttf\lib\$(PlatformTarget)" "$(SolutionDir)x64\$(Configuration)" /Y
+xcopy "$(SolutionDir)Dependencies\SDL2_ttf\lib\$(PlatformTarget)\SDL2_ttf.dll" "$(SolutionDir)x64\$(Configuration)" /Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Camera\CameraSet\CameraSet.cpp" />
+    <ClCompile Include="Source\Camera\CameraSet\CameraView.cpp" />
+    <ClCompile Include="Source\Camera\CameraSet\Transform.cpp" />
+    <ClCompile Include="Source\Font\Font.cpp" />
+    <ClCompile Include="Source\FPS\DeltaTime.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Source\Game_Objects\Character_Extern.cpp" />
+    <ClCompile Include="Source\Error\Error.cpp" />
+    <ClCompile Include="Source\Game_Objects\Characters.cpp" />
+    <ClCompile Include="Source\Game_Objects\GameObjectExtern.cpp" />
+    <ClCompile Include="Source\Game_Objects\GameObjects.cpp" />
+    <ClCompile Include="Source\Imgui\imgui.cpp" />
+    <ClCompile Include="Source\Imgui\imgui_demo.cpp" />
+    <ClCompile Include="Source\Imgui\imgui_draw.cpp" />
+    <ClCompile Include="Source\Imgui\imgui_impl_sdl_gl3.cpp" />
+    <ClCompile Include="Source\IO_Manager\file_IO.cpp" />
+    <ClCompile Include="Source\IO_Manager\Image_IO.cpp" />
+    <ClCompile Include="Source\Camera\Camera.cpp" />
+    <ClCompile Include="Source\IO_Manager\MouseInput.cpp" />
+    <ClCompile Include="Source\FPS\FPS.cpp" />
+    <ClCompile Include="Source\IO_Manager\KeyboardInput.cpp" />
+    <ClCompile Include="Source\Engine\Engine.cpp" />
+    <ClCompile Include="Source\Physics\Physics.cpp" />
+    <ClCompile Include="Source\Shader\Shader.cpp" />
+    <ClCompile Include="Source\Sound\Sound.cpp" />
+    <ClCompile Include="Source\Sprite\Mesh\Mesh.cpp" />
+    <ClCompile Include="Source\Sprite\SpriteBatch\SpriteBatch.cpp" />
+    <ClCompile Include="Source\Sprite\SpriteGame.cpp" />
+    <ClCompile Include="Source\State\Level1.cpp" />
+    <ClCompile Include="Source\State\MainMenu.cpp" />
+    <ClCompile Include="Source\State\StateManager.cpp" />
+    <ClCompile Include="Source\Texture\ImageLoader.cpp" />
+    <ClCompile Include="Source\Texture\picoPNG.cpp" />
+    <ClCompile Include="Source\Texture\Texture.cpp" />
+    <ClCompile Include="Source\Texture\TextureArray.cpp" />
+    <ClCompile Include="Source\Window\Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Camera\CameraSet\CameraSet.hpp" />
+    <ClInclude Include="Source\Camera\CameraSet\CameraView.hpp" />
+    <ClInclude Include="Source\Camera\CameraSet\Transform.hpp" />
+    <ClInclude Include="Source\Font\Font.hpp" />
+    <ClInclude Include="Source\FPS\DeltaTime.hpp" />
+    <ClInclude Include="Source\Game_Objects\Characters.h" />
+    <ClInclude Include="Source\Game_Objects\Character_Extern.h" />
+    <ClInclude Include="Source\Game_Objects\Colors.h" />
+    <ClInclude Include="Source\Game_Objects\GameInfo_Enums.h" />
+    <ClInclude Include="Source\Error\Error.h" />
+    <ClInclude Include="Source\Game_Objects\GameObjectExtern.h" />
+    <ClInclude Include="Source\Game_Objects\GameObjects.h" />
+    <ClInclude Include="Source\Imgui\imconfig.h" />
+    <ClInclude Include="Source\Imgui\imgui.h" />
+    <ClInclude Include="Source\Imgui\imgui_impl_sdl_gl3.h" />
+    <ClInclude Include="Source\Imgui\imgui_internal.h" />
+    <ClInclude Include="Source\Imgui\stb_rect_pack.h" />
+    <ClInclude Include="Source\Imgui\stb_textedit.h" />
+    <ClInclude Include="Source\Imgui\stb_truetype.h" />
+    <ClInclude Include="Source\IO_Manager\file_IO.h" />
+    <ClInclude Include="Source\IO_Manager\Image_IO.hpp" />
+    <ClInclude Include="Source\Camera\Camera.hpp" />
+    <ClInclude Include="Source\IO_Manager\MouseInput.h" />
+    <ClInclude Include="Source\FPS\FPS.h" />
+    <ClInclude Include="Source\IO_Manager\KeyboardInput.h" />
+    <ClInclude Include="Source\Engine\Engine.h" />
+    <ClInclude Include="Source\MathLibrary\MathFunctions.hpp" />
+    <ClInclude Include="Source\MathLibrary\MathLibrary.hpp" />
+    <ClInclude Include="Source\MathLibrary\Matrix3.hpp" />
+    <ClInclude Include="Source\MathLibrary\Matrix4.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Source\MathLibrary\Vector2.hpp" />
+    <ClInclude Include="Source\MathLibrary\Vector3.hpp" />
+    <ClInclude Include="Source\MathLibrary\Vector4.hpp" />
+    <ClInclude Include="Source\Physics\Physics.h" />
+    <ClInclude Include="Source\Shader\Shader.hpp" />
+    <ClInclude Include="Source\Sound\Sound.hpp" />
+    <ClInclude Include="Source\Sprite\Mesh\Mesh.hpp" />
+    <ClInclude Include="Source\Sprite\SpriteBatch\SpriteBatch.hpp" />
+    <ClInclude Include="Source\Sprite\SpriteGame.hpp" />
+    <ClInclude Include="Source\State\Level1.h" />
+    <ClInclude Include="Source\State\MainMenu.h" />
+    <ClInclude Include="Source\State\StateManager.h" />
+    <ClInclude Include="Source\Texture\GLTexture.hpp" />
+    <ClInclude Include="Source\Texture\ImageLoader.hpp" />
+    <ClInclude Include="Source\Texture\picoPNG.hpp" />
+    <ClInclude Include="Source\Texture\Texture.hpp" />
+    <ClInclude Include="Source\Texture\TextureArray.hpp" />
+    <ClInclude Include="Source\Vertex\Vertex.hpp" />
+    <ClInclude Include="Source\Window\Window.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Shader\colorShader.frag" />
+    <None Include="Source\Shader\colorShader.vert" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

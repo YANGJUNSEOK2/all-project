@@ -1,0 +1,11 @@
+475
+225
+60
+80
+255 255 255 255
+Texture/Cards/question_mark.png
+0
+0
+0
+0
+0

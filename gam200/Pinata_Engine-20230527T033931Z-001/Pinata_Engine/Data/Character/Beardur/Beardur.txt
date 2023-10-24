@@ -1,0 +1,11 @@
+-550
+-120
+210
+280
+255 255 255 255
+Texture/Player/Beardur/Normal.png
+1
+0
+0
+1
+0

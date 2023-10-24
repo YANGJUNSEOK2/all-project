@@ -1,0 +1,20 @@
+Name : Junseok Yang
+
+Role : Producer
+
+Main contributions: Game state, Game items, Game sounds, Game maps, Game Textures
+
+List files in which you worked:
+characterSelect1p.cpp characterSelect1p.h 
+characterSelect2p.cpp characterSelect2p.h 
+credit.cpp credit.h 
+digipenLogo.cpp digipenLogo.h 
+pauseState.cpp pauseStat.h 
+Utils.cpp Utils.h
+
+Personal notes:
+
+Our team recreated the game concept in mid-project. 
+So our team was more difficult, but eventually we made the game we wanted to make. 
+As a producer, I learned how to communicate and act with my team members. 
+I realized a lot of engine usage.

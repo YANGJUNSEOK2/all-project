@@ -1,0 +1,46 @@
+﻿  Characters.cpp
+C:\Users\양준석\Desktop\gam200\Pinata_Engine\Source\Game_Objects\Characters.cpp(35,13): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\양준석\Desktop\gam200\Pinata_Engine\Source\Game_Objects\Characters.cpp(93,11): warning C4552: '*': result of expression not used
+C:\Users\양준석\Desktop\gam200\Pinata_Engine\Source\Game_Objects\Characters.cpp(96,11): warning C4552: '*': result of expression not used
+  Engine.vcxproj -> C:\Users\양준석\Desktop\gam200\Pinata_Engine\x64\Debug\Engine.exe
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_image\lib\x64\libjpeg-9.dll
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_image\lib\x64\libpng16-16.dll
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_image\lib\x64\libtiff-5.dll
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_image\lib\x64\libwebp-7.dll
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_image\lib\x64\LICENSE.jpeg.txt
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_image\lib\x64\LICENSE.png.txt
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_image\lib\x64\LICENSE.tiff.txt
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_image\lib\x64\LICENSE.webp.txt
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_image\lib\x64\LICENSE.zlib.txt
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_image\lib\x64\SDL2_image.dll
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_image\lib\x64\SDL2_image.lib
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_image\lib\x64\zlib1.dll
+  12개 파일이 복사되었습니다.
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2\lib\x64\SDL2.dll
+  1개 파일이 복사되었습니다.
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_mixer\lib\x64\libFLAC-8.dll
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_mixer\lib\x64\libmodplug-1.dll
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_mixer\lib\x64\libmpg123-0.dll
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_mixer\lib\x64\libogg-0.dll
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_mixer\lib\x64\libopus-0.dll
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_mixer\lib\x64\libopusfile-0.dll
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_mixer\lib\x64\libvorbis-0.dll
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_mixer\lib\x64\libvorbisfile-3.dll
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_mixer\lib\x64\LICENSE.FLAC.txt
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_mixer\lib\x64\LICENSE.modplug.txt
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_mixer\lib\x64\LICENSE.mpg123.txt
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_mixer\lib\x64\LICENSE.ogg-vorbis.txt
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_mixer\lib\x64\LICENSE.opus.txt
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_mixer\lib\x64\LICENSE.opusfile.txt
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_mixer\lib\x64\SDL2_mixer.dll
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_mixer\lib\x64\SDL2_mixer.lib
+  16개 파일이 복사되었습니다.
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_ttf\lib\x64\libfreetype-6.dll
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_ttf\lib\x64\LICENSE.freetype.txt
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_ttf\lib\x64\LICENSE.zlib.txt
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_ttf\lib\x64\SDL2_ttf.dll
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_ttf\lib\x64\SDL2_ttf.lib
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_ttf\lib\x64\zlib1.dll
+  6개 파일이 복사되었습니다.
+  C:\Users\양준석\Desktop\gam200\Pinata_Engine\Dependencies\SDL2_ttf\lib\x64\SDL2_ttf.dll
+  1개 파일이 복사되었습니다.

@@ -1,0 +1,10 @@
+0
+0
+120
+120
+255 255 255 225
+Texture/Effects/Stunned.png
+0
+0
+0
+0

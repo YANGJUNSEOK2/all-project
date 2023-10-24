@@ -1,0 +1,15 @@
+Name : Wonju Cho
+
+Role : Lead Designer
+
+Main contributions: All art, music and tutorial
+
+List files in which you worked:
+Credit.cpp, Credit.h, digipenLogo.cpp, digipenLogo.h, 
+Ending.cpp, Ending.h, MainMenu.cpp, MainMenu.h, 
+PauseState.cpp, PauseState.h, TeamLogo.cpp, TeamLogo.h, 
+Tutorial.cpp, Tutorial.h
+
+Personal notes:
+It was good to see how the physics applied in the game. 
+Easy recognition and intuitiveness of main features and contents.

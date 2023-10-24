@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Application.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>States\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomBaseObject.cpp">
+      <Filter>CustomPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomPhysics.cpp">
+      <Filter>CustomPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsPipeline.cpp">
+      <Filter>CustomPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="Credit.cpp">
+      <Filter>States\Credit</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterSelect1p.cpp">
+      <Filter>States\CharacterSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterSelect2p.cpp">
+      <Filter>States\CharacterSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Domination.cpp">
+      <Filter>States\Domination</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>States\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>States\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Ending.cpp">
+      <Filter>States\Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="CoinCollect.cpp">
+      <Filter>States\CoinCollect</Filter>
+    </ClCompile>
+    <ClCompile Include="Tutorial.cpp">
+      <Filter>States\tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeSelect.cpp">
+      <Filter>States\ModeSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="TeamLogo.cpp">
+      <Filter>States\TeamLogo</Filter>
+    </ClCompile>
+    <ClCompile Include="digipenLogo.cpp">
+      <Filter>States\DigipenLogo</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseState.cpp">
+      <Filter>States\Pause</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>States\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomBaseObject.h">
+      <Filter>CustomPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomPhysics.h">
+      <Filter>CustomPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="Credit.h">
+      <Filter>States\Credit</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterSelect1p.h">
+      <Filter>States\CharacterSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterSelect2p.h">
+      <Filter>States\CharacterSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Domination.h">
+      <Filter>States\Domination</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonLevel.h">
+      <Filter>States\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>States\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>States\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending.h">
+      <Filter>States\Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="CoinCollect.h">
+      <Filter>States\CoinCollect</Filter>
+    </ClInclude>
+    <ClInclude Include="Tutorial.h">
+      <Filter>States\tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeSelect.h">
+      <Filter>States\ModeSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="TeamLogo.h">
+      <Filter>States\TeamLogo</Filter>
+    </ClInclude>
+    <ClInclude Include="digipenLogo.h">
+      <Filter>States\DigipenLogo</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseState.h">
+      <Filter>States\Pause</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{a4c61a45-6f83-4081-bec3-091c42be4108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{d3751412-3ba4-4576-8c36-adfa7ed352d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{42c6271b-7032-405d-a083-7e1855c12c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\MainMenu">
+      <UniqueIdentifier>{1fee0eee-5a70-4de5-a63f-1c226a69796d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CustomPhysics">
+      <UniqueIdentifier>{cb61aa8a-592b-44f2-bf38-67b9c4873969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\Credit">
+      <UniqueIdentifier>{a449e9da-dcd7-4d0f-8f67-734acd6565f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\CharacterSelect">
+      <UniqueIdentifier>{4fc426ea-4012-49ce-b6ef-9ce5e70d42d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\Domination">
+      <UniqueIdentifier>{736e6bf6-155b-4eec-89cc-6ba0624492df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\Common">
+      <UniqueIdentifier>{0f891bb9-e9dc-4eb0-9209-f5f2becdb4f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\Utils">
+      <UniqueIdentifier>{95f9e41c-f15a-4ad9-8b22-92d773dc5c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\CoinCollect">
+      <UniqueIdentifier>{cbb47f86-d634-4fbb-9c8f-8c753f3ffe4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\Ending">
+      <UniqueIdentifier>{4a79eaab-0dd6-4bbb-ba9f-f8b5cd2e790f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\tutorial">
+      <UniqueIdentifier>{c0c3afd9-642f-4733-82bf-6ddec18089fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\ModeSelect">
+      <UniqueIdentifier>{550a8966-9f75-48ee-b1b9-786eb9d16ea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\DigipenLogo">
+      <UniqueIdentifier>{81d8692f-a9a2-435c-b160-3d27616b5661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\TeamLogo">
+      <UniqueIdentifier>{8036c447-cfe7-449b-b545-31bb6447cbd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\Pause">
+      <UniqueIdentifier>{630ff4f8-7555-4f5e-ae4c-6fbf50a45fa0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

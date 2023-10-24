@@ -1,0 +1,27 @@
+Name : Haewon Shon
+
+Role : Test manager
+
+Main contributions: debuging, game struct, player control
+
+List files in which you worked:
+player.cpp
+player.h
+coinCollect.cpp
+coinCollect.h
+Domination.cpp
+Domination.h 
+ending.cpp 
+ending.h
+modeSelect.cpp
+modeSelect.h 
+Tutorial.cpp
+Tutorial.h
+Utils.cpp
+Utils.h
+
+Personal notes:
+I learned many things while doing this project. 
+Since our plans and documents were not clean enough, we add/remove many things while project.
+Because of that, in the last month of the project, when we tried to change things, we confused a lot and changed a lot of things.
+I will plan all things well as possible as I can to block this situation.

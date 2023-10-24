@@ -1,0 +1,11 @@
+-700
+-400
+100
+50
+255 255 255 255
+Texture/TutoText/UI_tuto_explWeapon.png
+0
+0
+0
+1
+0

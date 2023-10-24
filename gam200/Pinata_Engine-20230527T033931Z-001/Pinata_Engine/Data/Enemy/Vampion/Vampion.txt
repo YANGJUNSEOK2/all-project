@@ -1,0 +1,11 @@
+400
+-120
+210
+280
+255 255 255 255
+Texture/Enemy/Vampion/Normal.png
+1
+0
+0
+1
+0

@@ -1,0 +1,11 @@
+-700
+-290
+100
+50
+255 255 255 255
+Texture/TutoText/card_tuto_expl2.png
+0
+0
+0
+1
+0
